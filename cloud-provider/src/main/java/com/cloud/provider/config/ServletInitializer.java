@@ -1,0 +1,17 @@
+package com.cloud.provider.config;
+
+import com.cloud.provider.CloudProviderApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+/**
+ * @author: lucky
+ * @date: 2020/7/6
+ * @description:
+ **/
+public class ServletInitializer extends SpringBootServletInitializer {
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder applicationBuilder) {
+        return applicationBuilder.sources(CloudProviderApplication.class);
+    }
+}

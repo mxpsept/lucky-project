@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-discovery/cloud-discovery.iml" filepath="$PROJECT_DIR$/cloud-discovery/cloud-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider/cloud-provider.iml" filepath="$PROJECT_DIR$/cloud-provider/cloud-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lucky-project.iml" filepath="$PROJECT_DIR$/lucky-project.iml" />
+    </modules>
+  </component>
+</project>
